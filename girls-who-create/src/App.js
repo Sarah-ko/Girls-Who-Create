@@ -1,10 +1,10 @@
 import "./App.css";
 import BiologyIcon from "./icons/biology.png";
-import CalculatorIcon from "./icons/biology.png";
+import CalculatorIcon from "./icons/calculator.png";
 import CompilerIcon from "./icons/compiler.png";
 import DnaIcon from "./icons/dna.png";
 import DomeIcon from "./icons/dome.png";
-import MonitorIcon from "./icons/monitor.png";
+import ComputerIcon from "./icons/monitor.png";
 import ShuttleIcon from "./icons/shuttle.png";
 import TestIcon from "./icons/test.png";
 
@@ -67,8 +67,8 @@ function App() {
         alignItems: "center",
       },
     },
-    monitor: {
-      icon:  MonitorIcon,
+    computer: {
+      icon:  ComputerIcon,
       style: {
         background: "#06D6A0",
         display: "flex",
@@ -98,7 +98,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="title">Timeline</h1>
+      <h1 className="title">Girls Who Create</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
           const { icon, style } = iconMapping[element.icon] || {};
@@ -115,8 +115,8 @@ function App() {
               iconStyle={style}
               icon={<img src={icon} alt={`${element.icon} Icon`} style={{ width: '40px', height: '40px' }} />}
             >
-              <h3 className="vertical-timeline-element-title">
-                {element.title}
+              <h3 className="vertical-timeline-element-name">
+                {element.name}
               </h3>
               <h5 className="vertical-timeline-element-subtitle">
                 {element.location}
