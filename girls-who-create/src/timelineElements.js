@@ -1,63 +1,84 @@
 let timelineElements = [
     {
       id: 1,
-      title: "Frontend Developer",
-      location: "Dragontail, Ascana",
+      name: "Ada Lovelace",
+      location: "London, England",
       description:
-        "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-      buttonText: "View Frontend Projects",
-      date: "August 2016 - present",
-      icon: "work",
+        "Ada Lovelace was an English mathematician and writer, known as the first computer programmer. She created the first ever algorithm for a machine.",
+      buttonText: "Learn more!",
+      date: "1815 - 1852",
+      icon: "computer",
     },
     {
       id: 2,
-      title: "Backend Developer",
-      location: "Skystead, Craonia",
+      name: "Ruby Hirose",
+      location: "Kent, Washington",
       description:
-        "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-      buttonText: "View Backend Projects",
-      date: "June 2013 - August 2016",
-      icon: "work",
+        "Ruby Hirose was a pioneering Japanese-American biochemist and bacteriologist known for her significant contributions to vaccine development and allergy treatments. She played a crucial role in the development of vaccines for polio and diphtheria",
+      buttonText: "Learn more!",
+      date: "1904 - 1960",
+      icon: "test",
     },
     {
       id: 3,
-      title: "Quality Assurance Engineer",
-      location: "South Warren, Geshington",
+      name: "Rosalin Franklin",
+      location: "London, England",
       description:
-        "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-      buttonText: "Company Website",
-      date: "September 2011 - June 2013",
-      icon: "work",
+        "Rosalind Franklin was a British chemist and X-ray crystallographer whose work was crucial to understanding the molecular structures of DNA, RNA, viruses, coal, and graphite. She is best known for her role in the discovery of the DNA double helix structure.",
+      buttonText: "Learn more!",
+      date: "1920-1958",
+      icon: "dna",
     },
     {
       id: 4,
-      title: "Oak Ridge College",
-      location: "South Warren, Geshington",
+      name: "Grace Hopper",
+      location: "New York City, New York",
       description:
-        "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      buttonText: "Course Certificate",
-      date: "September 2011",
-      icon: "school",
+        "Grace Hopper was an influential American computer scientist and United States Navy rear admiral who made significant contributions to computer programming and technology. She was instrumental in creating the first compiler for computers.",
+      buttonText: "Learn more!",
+      date: "1906 - 1992",
+      icon: "compiler",
     },
     {
       id: 5,
-      title: "Hawking College",
-      location: "Skystead, Craonia",
+      name: "Katherine Johnson",
+      location: "White Sulphur Springs, West Virginia",
       description:
-        "College - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      buttonText: "College Projects",
-      date: "2007 - 2011",
-      icon: "school",
+        "Katherine Johnson was an American mathematician whose work was pivotal in the success of the U.S. space program. Her calculations were crucial for the safe navigation and landing of spacecraft.",
+      buttonText: "Learn more!",
+      date: "1918 - 2020",
+      icon: "calculator",
     },
     {
       id: 6,
-      title: "Marble Hills Grammar School",
-      location: "Dragontail, Ascana",
+      name: "Flossie Wong-Staal",
+      location: "China",
       description:
-        "Highschool - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-      date: "2003 - 2007",
-      icon: "school",
+        "Flossie Wong-Staal was a Chinese-American virologist and molecular biologist renowned for her groundbreaking research on HIV/AIDS. She held significant positions, such as the Florence Riford Chair in AIDS Research at UCSD, where she continued her pioneering work on gene therapy and retroviruses.",
+      buttonText: "Learn more!",
+      date: "1946 - 2020",
+      icon: "biology",
     },
+    {
+      id: 7,
+      name: "Ellen Ochoa",
+      location: "Los Angeles, California",
+      description:
+        "Ellen Ochoa is an American engineer, former astronaut, and the first Hispanic woman to travel to space. Her career is marked by significant contributions to space exploration and leadership within NASA.",
+      buttonText: "Learn more!",
+      date: "1958 - Present",
+      icon: "shuttle"  
+    },
+    { 
+      id: 8,
+      name: "Maryam Mirzakhani",
+      location: "Tehran, Iran",
+      description: 
+        "Maryam Mirzakhani was an Iranian mathematician renowned for her groundbreaking work in mathematics, particularly in geometry and dynamics. In 2014, Mirzakhani became the first woman and the first Iranian to receive the Fields Medal, the most prestigious award in mathematics.",
+      buttonText: "Learn more!",
+      date: "1977 - 2017",
+      icon: "dome"  
+    }
   ];
   
   export default timelineElements;

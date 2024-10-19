@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="title">Timeline</h1>
+      <h1 className="title">Girls Who Create</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === "work";
@@ -34,8 +34,8 @@ function App() {
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
               icon={<img src={isWorkIcon ? WorkIcon : SchoolIcon} alt="icon" />}
             >
-              <h3 className="vertical-timeline-element-title">
-                {element.title}
+              <h3 className="vertical-timeline-element-name">
+                {element.name}
               </h3>
               <h5 className="vertical-timeline-element-subtitle">
                 {element.location}
