@@ -32,7 +32,7 @@ function App() {
               date={element.date}
               dateClassName="date"
               iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-              icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+              icon={<img src={isWorkIcon ? WorkIcon : SchoolIcon} alt="icon" />}
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}
