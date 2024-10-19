@@ -8,7 +8,7 @@ body {
 }
 
 .title {
-  font-size: 10em;
+  font-size: 8em;
   text-align: center;
   font-family: "Courgette", cursive;
 }
@@ -40,74 +40,74 @@ h3 {
 
 /* Biology button styles */
 .button.biologyButton {
-  background-color: #06D6A0;  /* You can customize each button's color here */
+  background-color: #b481e3;  /* You can customize each button's color here */
 }
 
 .button.biologyButton:hover {
-  background-color: #04b583; /* Hover effect for biology button */
+  background-color: #9067b5; /* Hover effect for biology button */
 }
 
 /* Calculator button styles */
 .button.calculatorButton {
-  background-color: #ff7f50;
+  background-color: #b481e3;
 }
 
 .button.calculatorButton:hover {
-  background-color: #e66736;
+  background-color: #9067b5;
 }
 
 /* Compiler button styles */
 .button.compilerButton {
-  background-color: #1e90ff;
+  background-color: #b481e3;
 }
 
 .button.compilerButton:hover {
-  background-color: #1c7ce0;
+  background-color: #9067b5;
 }
 
 /* DNA button styles */
 .button.dnaButton {
-  background-color: #8a2be2;
+  background-color: #b481e3;
 }
 
 .button.dnaButton:hover {
-  background-color: #7b25d1;
+  background-color: #9067b5;
 }
 
 /* Dome button styles */
 .button.domeButton {
-  background-color: #ff6347;
+  background-color: #b481e3;
 }
 
 .button.domeButton:hover {
-  background-color: #e04c32;
+  background-color: #9067b5;
 }
 
 /* Monitor button styles */
 .button.computerButton {
-  background-color: #ffb6c1;
+  background-color: #b481e3;
 }
 
 .button.computerButton:hover {
-  background-color: #e599b0;
+  background-color: #9067b5;
 }
 
 /* Shuttle button styles */
 .button.shuttleButton {
-  background-color: #ffa500;
+  background-color: #b481e3;
 }
 
 .button.shuttleButton:hover {
-  background-color: #e59400;
+  background-color: #9067b5;
 }
 
 /* Test button styles */
 .button.testButton {
-  background-color: #32cd32;
+  background-color: #b481e3;
 }
 
 .button.testButton:hover {
-  background-color: #28b828;
+  background-color: #9067b5;
 }
 
 @media only screen and (max-width: 1700px) {
