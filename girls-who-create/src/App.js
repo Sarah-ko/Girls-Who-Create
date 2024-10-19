@@ -1,6 +1,6 @@
 import "./App.css";
-import { ReactComponent as WorkIcon } from "./shuttle.png";
-import { ReactComponent as SchoolIcon } from "./shuttle.png";
+import WorkIcon from "./shuttle.png";
+import SchoolIcon from "./shuttle.png";
 
 import timelineElements from "./timelineElements";
 
