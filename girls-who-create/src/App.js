@@ -18,7 +18,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 function App() {
-  //let workIconStyles = { background: "#06D6A0", display: 'flex', justifyContent: 'center', alignItems: 'center' };
+  //let workIconStyles = { background: "#06D6A0", display: 'flex', justifyContent: 'center', alignItems: 'center' }; sarah
   //let schoolIconStyles = { background: "#f9c74f" , display: 'flex', justifyContent: 'center', alignItems: 'center' };
 
   const iconMapping = {
