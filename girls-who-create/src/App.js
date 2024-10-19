@@ -126,8 +126,10 @@ function App() {
                 <a
                   className={`button ${
                     element.icon
-                  }`}
-                  href="/"
+                  }Button`}
+                  href={element.buttonLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {element.buttonText}
                 </a>

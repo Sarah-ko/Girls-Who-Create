@@ -84,11 +84,11 @@ h3 {
 }
 
 /* Monitor button styles */
-.button.monitorButton {
+.button.computerButton {
   background-color: #ffb6c1;
 }
 
-.button.monitorButton:hover {
+.button.computerButton:hover {
   background-color: #e599b0;
 }
 
