@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Ruge+Boogie&display=swap');
+
 body {
   background: #ffcee7;
   font-family: "Montserrat", sans-serif;
@@ -6,9 +8,9 @@ body {
 }
 
 .title {
-  font-size: 15em;
+  font-size: 8em;
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Courgette", cursive;
 }
 
 h3 {
