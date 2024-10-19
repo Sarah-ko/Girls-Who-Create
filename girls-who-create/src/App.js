@@ -25,7 +25,7 @@ function App() {
     biology: {
       icon: BiologyIcon,
       style: {
-        background: "#06D6A0",
+        background: "#b481e3",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -34,7 +34,7 @@ function App() {
     calculator: {
       icon: CalculatorIcon,
       style: {
-        background: "#06D6A0",
+        background: "#b481e3",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -43,7 +43,7 @@ function App() {
     compiler: {
       icon: CompilerIcon,
       style: {
-        background: "#06D6A0",
+        background: "#b481e3",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -52,7 +52,7 @@ function App() {
     dna: {
       icon: DnaIcon,
       style: {
-        background: "#06D6A0",
+        background: "#b481e3",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -61,7 +61,7 @@ function App() {
     dome: {
       icon: DomeIcon,
       style: {
-        background: "#06D6A0",
+        background: "#b481e3",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -70,7 +70,7 @@ function App() {
     computer: {
       icon:  ComputerIcon,
       style: {
-        background: "#06D6A0",
+        background: "#b481e3",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -79,7 +79,7 @@ function App() {
     shuttle: {
       icon: ShuttleIcon,
       style: {
-        background: "#06D6A0",
+        background: "#b481e3",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -88,7 +88,7 @@ function App() {
     test: {
       icon: TestIcon,
       style: {
-        background: "#06D6A0",
+        background: "#b481e3",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
