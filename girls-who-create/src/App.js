@@ -1,6 +1,12 @@
 import "./App.css";
-import WorkIcon from "./shuttle.png";
-import SchoolIcon from "./shuttle.png";
+import BiologyIcon from "./icons/biology.png";
+import CalculatorIcon from "./icons/biology.png";
+import CompilerIcon from "./icons/compiler.png";
+import DnaIcon from "./icons/dna.png";
+import DomeIcon from "./icons/dome.png";
+import MonitorIcon from "./icons/monitor.png";
+import ShuttleIcon from "./icons/shuttle.png";
+import TestIcon from "./icons/test.png";
 
 import timelineElements from "./timelineElements";
 
@@ -12,15 +18,90 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 function App() {
-  let workIconStyles = { background: "#06D6A0" };
-  let schoolIconStyles = { background: "#f9c74f" };
+  //let workIconStyles = { background: "#06D6A0", display: 'flex', justifyContent: 'center', alignItems: 'center' };
+  //let schoolIconStyles = { background: "#f9c74f" , display: 'flex', justifyContent: 'center', alignItems: 'center' };
+
+  const iconMapping = {
+    biology: {
+      icon: BiologyIcon,
+      style: {
+        background: "#06D6A0",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      },
+    },
+    calculator: {
+      icon: CalculatorIcon,
+      style: {
+        background: "#06D6A0",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      },
+    },
+    compiler: {
+      icon: CompilerIcon,
+      style: {
+        background: "#06D6A0",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      },
+    },
+    dna: {
+      icon: DnaIcon,
+      style: {
+        background: "#06D6A0",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      },
+    },
+    dome: {
+      icon: DomeIcon,
+      style: {
+        background: "#06D6A0",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      },
+    },
+    monitor: {
+      icon:  MonitorIcon,
+      style: {
+        background: "#06D6A0",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      },
+    },
+    shuttle: {
+      icon: ShuttleIcon,
+      style: {
+        background: "#06D6A0",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      },
+    },
+    test: {
+      icon: TestIcon,
+      style: {
+        background: "#06D6A0",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      },
+    },
+  }
 
   return (
     <div>
       <h1 className="title">Timeline</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
-          let isWorkIcon = element.icon === "work";
+          const { icon, style } = iconMapping[element.icon] || {};
           let showButton =
             element.buttonText !== undefined &&
             element.buttonText !== null &&
@@ -31,8 +112,8 @@ function App() {
               key={element.key}
               date={element.date}
               dateClassName="date"
-              iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-              icon={<img src={isWorkIcon ? WorkIcon : SchoolIcon} alt="icon" />}
+              iconStyle={style}
+              icon={<img src={icon} alt={`${element.icon} Icon`} style={{ width: '40px', height: '40px' }} />}
             >
               <h3 className="vertical-timeline-element-title">
                 {element.title}
@@ -44,7 +125,7 @@ function App() {
               {showButton && (
                 <a
                   className={`button ${
-                    isWorkIcon ? "workButton" : "schoolButton"
+                    element.icon
                   }`}
                   href="/"
                 >

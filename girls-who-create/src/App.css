@@ -36,20 +36,76 @@ h3 {
   color: white;
 }
 
-.workButton {
-  background-color: #06d6a0;
+/* Biology button styles */
+.button.biologyButton {
+  background-color: #06D6A0;  /* You can customize each button's color here */
 }
 
-.workButton:hover {
-  background-color: #0ac593;
+.button.biologyButton:hover {
+  background-color: #04b583; /* Hover effect for biology button */
 }
 
-.schoolButton {
-  background-color: #f9c74f;
+/* Calculator button styles */
+.button.calculatorButton {
+  background-color: #ff7f50;
 }
 
-.schoolButton:hover {
-  background-color: #f3bc3c;
+.button.calculatorButton:hover {
+  background-color: #e66736;
+}
+
+/* Compiler button styles */
+.button.compilerButton {
+  background-color: #1e90ff;
+}
+
+.button.compilerButton:hover {
+  background-color: #1c7ce0;
+}
+
+/* DNA button styles */
+.button.dnaButton {
+  background-color: #8a2be2;
+}
+
+.button.dnaButton:hover {
+  background-color: #7b25d1;
+}
+
+/* Dome button styles */
+.button.domeButton {
+  background-color: #ff6347;
+}
+
+.button.domeButton:hover {
+  background-color: #e04c32;
+}
+
+/* Monitor button styles */
+.button.monitorButton {
+  background-color: #ffb6c1;
+}
+
+.button.monitorButton:hover {
+  background-color: #e599b0;
+}
+
+/* Shuttle button styles */
+.button.shuttleButton {
+  background-color: #ffa500;
+}
+
+.button.shuttleButton:hover {
+  background-color: #e59400;
+}
+
+/* Test button styles */
+.button.testButton {
+  background-color: #32cd32;
+}
+
+.button.testButton:hover {
+  background-color: #28b828;
 }
 
 @media only screen and (max-width: 1700px) {
